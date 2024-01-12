@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtMethod2String" min="-2" pref="148" max="-2" attributes="0"/>
+                                  <Component id="lblMethod2Title" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtMethod2Substring" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="btnMethod2Confirm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtMethod3String" min="-2" pref="148" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtMethod3Char" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnMethod3Confirm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtMethod6String1" min="-2" pref="82" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtMethod6String2" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtMethod6String3" min="-2" pref="82" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="btnMethod6Confirm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtMethod7String" min="-2" pref="148" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+                              <Component id="btnMethod7Confirm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtMethod8String" min="-2" pref="148" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtMethod8Shift" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                              <Component id="btnMethod8Confirm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtMethod5String" min="-2" pref="148" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="182" max="-2" attributes="0"/>
+                              <Component id="btnMethod5Confirm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtMethod4String" min="-2" pref="148" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+                              <Component id="btnMethod4Confirm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblMethod7Answer" alignment="0" min="-2" pref="412" max="-2" attributes="0"/>
+                          <Component id="lblMethod4Answer" alignment="0" min="-2" pref="412" max="-2" attributes="0"/>
+                          <Component id="lblMethod5Answer" alignment="0" min="-2" pref="412" max="-2" attributes="0"/>
+                          <Component id="lblMethod6Answer" alignment="0" min="-2" pref="412" max="-2" attributes="0"/>
+                          <Component id="lblMethod8Answer" alignment="0" min="-2" pref="412" max="-2" attributes="0"/>
+                          <Component id="lblMethod3Answer" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMethod2Answer" alignment="0" min="-2" pref="409" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="lblMethod8Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="lblMethod7Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="lblMethod6Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="lblTitle" min="-2" pref="162" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                      <Component id="txtMethod1String" min="-2" pref="234" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                      <Component id="btnMethod1Confirm" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblMethod1Title" min="-2" pref="274" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="lblMethod1Subtitle" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFirst5CharString1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                          <Component id="lblCaptialsString1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                          <Component id="lblVowelsString1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblLenOfString1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="166" pref="166" max="-2" attributes="0"/>
+                              <Component id="lblMethod2Subtitle" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="lblMethod3Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="lblMethod4Title" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblMethod5Title" min="-2" pref="528" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="225" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" pref="28" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblMethod1Title" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtMethod1String" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnMethod1Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblMethod2Subtitle" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMethod2Title" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtMethod2String" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMethod2Substring" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnMethod2Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMethod2Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblMethod1Subtitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblLenOfString1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblVowelsString1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblCaptialsString1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblFirst5CharString1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblMethod3Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMethod3String" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMethod3Char" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMethod3Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMethod3Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblMethod4Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMethod4String" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMethod4Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMethod4Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblMethod5Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMethod5String" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMethod5Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMethod5Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblMethod6Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMethod6String1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMethod6Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMethod6Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMethod6String2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMethod6String3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblMethod7Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMethod7String" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMethod7Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMethod7Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblMethod8Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtMethod8String" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMethod8Confirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMethod8Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMethod8Shift" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="196" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Super String Software"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod1Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter A string to get some information on it"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod1Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod1ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod1Subtitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="String Stats"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLenOfString1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The length of your string is:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVowelsString1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of vowels your string has:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCaptialsString1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of captials in your string:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFirst5CharString1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The first 5 characters of your string are:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod2Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string below."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod2Subtitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a second string, to find the number of times the second string appears in the first string"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod1String">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod2String">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod2Substring">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMethod2SubstringActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod2Answer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="There are n appearances of &lt;string2&gt; in &lt;string1&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod2Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NumOccurances"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod2ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod3Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string below.                 Enter a character to find the indexes that the character can be found at in the string."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod3Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Indexes of character"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod3ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod3Char">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMethod3CharActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod3String">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod3Answer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The character &lt;character&gt; appears at indexes &lt;LIST OF INDEXES&gt; in &lt;string1&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod4Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string, to get back a string that has all it&apos;s vowels in lowercase, and all it&apos;s consonants in uppercase."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod4String">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod4Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Special string"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod4ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod4Answer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Your modified string is: &lt;string 1 but special&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod5Answer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The sum of the digits in the string is &lt;sum&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod5Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string, to get back the sum of digits in the string. Ex &quot;hello13&quot; is 4 because 1 + 3 = 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod5Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sum Digits"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod5ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod5String">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod6Answer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The strings in order are: &lt;string1&gt;, &lt;string2&gt;, &lt;string3&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod6Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Compare"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod6ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod6Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter 3 strings to get back which string is first lexicographically"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod6String1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod6String2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMethod6String2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod6String3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod7Answer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The string in Title form is &lt;string&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod7Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="To Title"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod7ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod7String">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod7Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string to get back the string back in &quot;Title form&quot; (The First Letter Of Each Word Is A Capital. (already capitalized letter will remain capitals))"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod8Answer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The string after the shift is: &lt;encrypted string&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMethod8Confirm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Encrypt"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMethod8ConfirmActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod8Shift">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMethod8ShiftActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMethod8Title">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string and a shift amount to get back the string cesear cipher shifted right by the shift amount (letters only)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMethod8String">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

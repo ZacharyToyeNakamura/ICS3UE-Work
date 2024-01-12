@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblInfo1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo11" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInfo12" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="27" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBack" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="lblInfo10" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo11" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo12" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
+              <Component id="lblInfo8" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo9" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblInfo5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Slots Info"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Slots is a terrible game to play because of the super low odds."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The odds for winning the top prize are anywhere form 1 in 5000 to 1 in 34million"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="There is absolutly no strategies or skills that you can use to improve your odds."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="They have a payback rate of ~80% - 95% so you are always losing money in the long term."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Overall NEVER play slots."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Some casinos can even fix the jackpot, so that it can only be won ever x plays. So sometimes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="the slot machines never even have a chance of givening you the jackpot."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="One &quot;strategy&quot; that you can use it to play on machines that have return, or offer bonuses."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Don&apos;t play on progressive slot machines because they take a lot of money and commitment"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The slots that you just played on the program have a pay back rate of 87.5% and a excepted"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="value of $0.25, there is a 1/5000 chance of winning $7,000 a 3/5000 chance of winning $300"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInfo12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a 1/500 chance of winning $10 a 1/100 chance of winning $5 and a 1/10 chance of winning $1"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

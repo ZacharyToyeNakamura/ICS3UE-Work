@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblGoToBJStats" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnHit" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="btnStand" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="btnRaise" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnSplit" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblPCard1" min="-2" pref="79" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblPCard2" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblPCard3" min="-2" pref="74" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblPlayerBetAmount" min="-2" pref="95" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblPCard4" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblPCard5" min="-2" pref="74" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="lblUserHandErrorMsg" min="-2" pref="479" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblSplitHandErrorMsg" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblSplitHandTitle" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="lblSplitTot" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="lblSCard1" max="32767" attributes="0"/>
+                                          <Component id="btnSplitHit" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                              <Component id="btnSplitStand" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                              <Component id="btnSplitRaise" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblSCard2" min="-2" pref="73" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblSCard3" min="-2" pref="72" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="lblSplitBetAmount" min="-2" pref="95" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lblSCard4" min="-2" pref="72" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="lblSCard5" min="-2" pref="77" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblDealersHandTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="lblDealerTot" min="-2" pref="94" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblPlayerHandTitle" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblPlayerTot" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblDCard1" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard2" min="-2" pref="69" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard3" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard4" min="-2" pref="74" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard5" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard6" min="-2" pref="74" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard7" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard8" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDCard9" min="-2" pref="74" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblBetAmountTitle" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtBet" min="-2" pref="72" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblMoney" min="-2" pref="119" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="569" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnPlay" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblErrorMsg" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="lblOutcome" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblExplainationTitle" pref="893" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblExplanation3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblExplanation4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblExplanation1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblExplanation2" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblExplanation5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblExplainationTitle" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblExplanation1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblExplanation2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblExplanation3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblExplanation4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="lblExplanation5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblBetAmountTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMoney" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="btnPlay" alignment="3" max="32767" attributes="0"/>
+                      <Component id="txtBet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorMsg" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblOutcome" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDealersHandTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDealerTot" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="lblDCard9" max="32767" attributes="0"/>
+                  <Component id="lblDCard1" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                  <Component id="lblDCard5" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                  <Component id="lblDCard6" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                  <Component id="lblDCard7" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                  <Component id="lblDCard8" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblDCard2" alignment="3" min="-2" pref="101" max="-2" attributes="0"/>
+                      <Component id="lblDCard3" alignment="3" min="-2" pref="101" max="-2" attributes="0"/>
+                      <Component id="lblDCard4" alignment="3" min="-2" pref="101" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="lblPlayerHandTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPlayerTot" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblPlayerBetAmount" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Component id="lblPCard1" alignment="1" min="-2" pref="107" max="-2" attributes="0"/>
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="lblPCard5" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="lblPCard4" max="32767" attributes="0"/>
+                                      <Component id="lblPCard3" min="-2" pref="107" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="lblPCard2" alignment="1" min="-2" pref="107" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblSplitHandTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSplitTot" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSplitBetAmount" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblSCard1" alignment="0" pref="110" max="32767" attributes="0"/>
+                          <Component id="lblSCard5" alignment="1" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblSCard2" max="32767" attributes="0"/>
+                              <Component id="lblSCard3" max="32767" attributes="0"/>
+                              <Component id="lblSCard4" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnHit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnStand" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSplit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRaise" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSplitHit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSplitStand" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSplitRaise" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblSplitHandErrorMsg" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="lblUserHandErrorMsg" min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblGoToBJStats" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Welcome to Blackjack!"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExplainationTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Blackjack is a game where you try to increase the value of your hand while not going over 21"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExplanation1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="You win if your total is higher than the dealers (without going over 21) then you win. The dealer wins on ties."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExplanation2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="The value of your hand is equal to the sum of the face values of your cards (with all face cards being 10). Aces are worth 1 or 11."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnPlay">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play!"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPlayActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDealersHandTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dealer&apos;s hand"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDCard9">
+    </Component>
+    <Component class="javax.swing.JButton" name="lblGoToBJStats">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Learn more!"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lblGoToBJStatsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDealerTot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPlayerHandTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Your hand"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPlayerTot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPCard1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPCard2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPCard3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPCard4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPCard5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSplitHandTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Your second hand"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSplitTot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSCard1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSCard2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSCard3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSCard4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSCard5">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnHit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnStand">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stand"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStandActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSplit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Split"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSplitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRaise">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Raise"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRaiseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSplitStand">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stand"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSplitStandActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSplitHit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSplitHitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSplitRaise">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Raise"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSplitRaiseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorMsg">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExplanation3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="After getting your first 2 cards you can choose to raise (before hitting or standing), which doubles your bet. If your first 2 cards are the same rank you can &quot;split&quot;."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExplanation4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spliting gives you 2 hands which are independant, and are both played against the dealer. You must finish playing both hands before the dealer plays."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExplanation5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a bet below and hit play to get started. After playing a few rounds click Learn More! to learn about the odds."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBetAmountTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bet Amount"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMoney">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Money: $100"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOutcome">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUserHandErrorMsg">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSplitHandErrorMsg">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPlayerBetAmount">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bet Amount: $"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSplitBetAmount">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bet Amount: $"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
