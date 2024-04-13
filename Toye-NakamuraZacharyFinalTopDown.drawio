@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-08-22T01:35:52.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HCUdhN2khw_fmfaWLlA_" version="21.6.8" type="google">
+  <diagram name="Main" id="u2j1PxCCSfBL0KVfQDct">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i4z88d97-u1cmz-Q-os1-1" value="Get the user to play gambling based games and learn the odds behind them. Discouraging them from playing them" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="210" as="sourcePoint" />
+            <mxPoint x="475" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="240" as="sourcePoint" />
+            <mxPoint x="750" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="240" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="160" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="240" as="sourcePoint" />
+            <mxPoint x="750" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-10" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-11" value="Processing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-12" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="420" as="sourcePoint" />
+            <mxPoint x="160" y="440.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-15" value="Which game the user wants to play" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="550" as="sourcePoint" />
+            <mxPoint x="160" y="570.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-17" value="Actions they want to take in that game (eg. hit in blackjack)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="420" as="sourcePoint" />
+            <mxPoint x="475" y="440.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-19" value="Switch the active GUI to the one the user wants" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="550" as="sourcePoint" />
+            <mxPoint x="475" y="570.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-22" value="For Blackjack: shuffle the deck then Preform the action the user wants, hit give them a card, split if the 2 cards are the same, give them 2 hands, raise double their bet. Then play for the computer. After that compare who won and add/subtract money accordingly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="420" as="sourcePoint" />
+            <mxPoint x="750" y="440.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="720" as="sourcePoint" />
+            <mxPoint x="475" y="740.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-26" value="For Roulette, randomly choose a number to win and see if it&#39;s the user&#39;s number / color. then increase/decrease their money appropriately" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="740" width="175" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="880" as="sourcePoint" />
+            <mxPoint x="475" y="900.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-28" value="For Slots randomly generate a number to see if the user wins, then increase/decrease their money" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="900" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="1010" as="sourcePoint" />
+            <mxPoint x="475" y="1030.7106781186549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-30" value="For pick4&amp;nbsp; randomly generate a number and compare it to the user&#39;s number then see if they win" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1030" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-31" value="Display the GUI the user is on" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="550" as="sourcePoint" />
+            <mxPoint x="750" y="570.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-33" value="For blackjack display the cards and money" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="570" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="710" as="sourcePoint" />
+            <mxPoint x="750" y="730.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-35" value="For roulette display the wheel, but just output the result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="730" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="870" as="sourcePoint" />
+            <mxPoint x="750" y="890.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-37" value="For slots display the result, a ms paint drawn image if they lose and a ms paint drawn image if they win" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="890" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1040" as="sourcePoint" />
+            <mxPoint x="750" y="1060.7106781186549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-39" value="for pick 4, display the winning number and if they won or not. Also display the money" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i4z88d97-u1cmz-Q-os1-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1170" as="sourcePoint" />
+            <mxPoint x="750" y="1190.7106781186549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4z88d97-u1cmz-Q-os1-41" value="For the explanation GUIs display a graph and a bit of text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

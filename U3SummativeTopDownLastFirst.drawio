@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2023-08-15T21:26:05.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LtSqEZHwyt37Xpgxydas" version="21.6.8" type="google">
+  <diagram name="Page-1" id="H-8gu7g2-9NSe4W0U4_8">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="800" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PWRaum2HCHTdvRiq13jF-1" value="Play rock paper scissors with the user for n rounds and output stats at the end" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="110" as="sourcePoint" />
+            <mxPoint x="395" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="130" as="sourcePoint" />
+            <mxPoint x="600" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="130" as="sourcePoint" />
+            <mxPoint x="200" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-6" value="Processing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="130" as="sourcePoint" />
+            <mxPoint x="200" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="130" as="sourcePoint" />
+            <mxPoint x="600" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-9" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-10" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="PWRaum2HCHTdvRiq13jF-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.60000000000002" y="280" as="sourcePoint" />
+            <mxPoint x="199.60000000000002" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-12" value="Which object the user wants to play [rock, paper or scissors] n times" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="330" as="sourcePoint" />
+            <mxPoint x="395" y="350.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-15" value="Generate a random number so the computer can play" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="460" as="sourcePoint" />
+            <mxPoint x="395" y="480.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-17" value="Compare the computer&#39;s object to the user&#39;s object and track who wins, loses and ties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="330" as="sourcePoint" />
+            <mxPoint x="600" y="350.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-19" value="The percentage win rate of the user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-19" target="PWRaum2HCHTdvRiq13jF-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="590" as="sourcePoint" />
+            <mxPoint x="600" y="610.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-21" value="How many times each object was played" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-24" value="The number of times the user wants to play" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-24" target="PWRaum2HCHTdvRiq13jF-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="440" as="sourcePoint" />
+            <mxPoint x="200" y="460.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="610" as="sourcePoint" />
+            <mxPoint x="395" y="630.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-27" value="Store all of the data in arrays" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-28" value="What the computer played and who won" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWRaum2HCHTdvRiq13jF-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PWRaum2HCHTdvRiq13jF-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="460" as="sourcePoint" />
+            <mxPoint x="600" y="480.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
